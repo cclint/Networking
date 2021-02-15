@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = '192.168.1.5'
+serverName = ''
 serverPort = 12000
 
 # creates the client's socket called clientSocket. 
