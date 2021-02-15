@@ -1,7 +1,7 @@
 from socket import *
 
 # if we use a hostname below instead of an IP address, then a DNS lookup will automatically be performed to get the IP address
-serverName = '192.168.1.5' # sets the string serverName to hostname: provide a string containing either the IP address ("128.138.32.126") <-- (this is an example IP.. use your own ip address..) of the or hostname ("cis.poly.edu") of the server
+serverName = '' # sets the string serverName to hostname: provide a string containing either the IP address ("128.138.32.126") <-- (this is an example IP.. use your own ip address..) of the or hostname ("cis.poly.edu") of the server
 serverPort = 12000 # don't change this lol
 
 # the first parameter in socket() indicates the address family, where AF_INET indicates that the uderlying network is using IPv4
